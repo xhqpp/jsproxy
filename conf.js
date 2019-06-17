@@ -26,7 +26,7 @@ jsproxy_config({
     },
     'cfworker': {
       label: 'Cloudflare Worker',
-      hidden: true,
+      hidden: flase,
       lines: [
         // 实验中...
         // 参考 https://github.com/EtherDream/jsproxy/tree/master/cf-worker
